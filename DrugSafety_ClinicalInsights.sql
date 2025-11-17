@@ -1,9 +1,7 @@
--- =====================================================
 -- Project: DrugSafety_ClinicalInsights
 -- Purpose: Track clinical outcomes, adverse events, and patient safety
--- =====================================================
 
--- 1. Patients table (anonymized)
+-- 1. Patients table
 CREATE TABLE Patients (
     PatientID INT PRIMARY KEY,
     PatientCode VARCHAR(50),
